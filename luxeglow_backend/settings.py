@@ -80,12 +80,12 @@ WSGI_APPLICATION = 'luxeglow_backend.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'mydatabase',
-        'USER': 'myuser',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'luxeglow',
+        'USER': 'admin',
+        'PASSWORD': 'password',
         'HOST': 'localhost',
-        'PASSWORD': 'abc123',
-        'PORT': '5432',
+        'PORT': '',
     }
 }
 
