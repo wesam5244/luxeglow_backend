@@ -84,6 +84,7 @@ DATABASES = {
         'NAME': 'mydatabase',
         'USER': 'myuser',
         'HOST': 'localhost',
+        'PASSWORD': 'newsecurepassword',
         'PORT': '',
     }
 }
